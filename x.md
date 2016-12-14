@@ -100,7 +100,7 @@ List containers
 
 **Query parameters**:
 
--   **all**	– 1/True/true or 0/False/false, Show all containers.
+-   **all********– 1/True/true or 0/False/false, Show all containers.
         Only running containers are shown by default (i.e., this defaults to false)
 -   **limit**   	– Show `limit` last created
         containers, include non-running ones.
