@@ -16,7 +16,7 @@ redirect_from:
      will be rejected.
 -->
 
-## 1. Brief introduction
+## 1. Brief introduction 
 
  - The daemon listens on `unix:///var/run/docker.sock` but you can
    [Bind Docker to another host/port or a Unix socket](../reference/commandline/dockerd.md#bind-docker-to-another-host-port-or-a-unix-socket).
@@ -30,13 +30,13 @@ redirect_from:
 
 #### List containers
 
-`GET /containers/json`
+`GET /containers/json` 
 
-List containers
+List containers 
 
 **Example request**:
 
-    GET /v1.18/containers/json?all=1&before=8dfafdbc3a40&size=1 HTTP/1.1
+    GET /v1.18/containers/json?all=1&before=8dfafdbc3a40&size=1 HTTP/1.1 
 
 **Example response**:
 
